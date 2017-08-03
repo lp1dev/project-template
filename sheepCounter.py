@@ -5,7 +5,7 @@ import logging as log
 def	main():
   i = 1
   while True:
-    log.DEBUG("%i sheep(s)" %i)
+    log.info("%i sheep(s)" %(i))
     i += 1
     sleep(4)
   return 0
