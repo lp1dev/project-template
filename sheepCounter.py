@@ -1,10 +1,11 @@
 #!/bin/python
 from time import sleep
+import logging as log
 
 def	main():
   i = 1
   while True:
-    print("%i sheep(s)" %i)
+    log.DEBUG("%i sheep(s)" %i)
     i += 1
     sleep(4)
   return 0
